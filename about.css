@@ -1,0 +1,120 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: black;
+    padding: 20px;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: white; 
+    
+  }
+   
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }
+
+.container{
+    background-image: url('Images/atl.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 800px; 
+    display: flex;
+    flex-direction: column; /* Stacks the elements vertically */
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    text-align: center;
+}
+  
+.intro{
+    font-size: 30px;
+}
+
+.describe{
+    width:600px;
+    color:white;
+    text-align: center; /* Center the text inside the describe div */
+    margin-top: 20px;
+}
+
+
+.team-intro h2 {
+    font-size: 28px;
+    margin-top: 25px;
+    color:white;
+    text-align: center;
+}
+
+.team-member {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.team-member h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+
+.team-member p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#position{
+    color:white; 
+    background-color: blue;
+    width: 200px;
+    outline: 2px solid white;
+    text-align: center;
+}
